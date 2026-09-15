@@ -1,13 +1,5 @@
 # NetSuite PRs — organized by real business sequence
 
-Order here = actual flow: a sale happens first (**Order Sync**), a return happens after (**Returns**), deposits/refunds build on both.
-
-(Note: Anil's own suggested *study/learning* order was the opposite — Returns before Order Sync, since Returns was built first. Keep that in mind if he asks which you did first — but this file follows the real-world sequence, as asked.)
-
-All titles/states below verified live from GitHub just now (2026-09-15), not guessed.
-
----
-
 ## Segment 1 — Order Sync (Sales to Cash)
 
 - `mantle-netsuite-connector` **#400** (open issue, the master ticket) — "Sales order sync to NetSuite through the REST record API, chosen by a rule group" — https://github.com/hotwax/mantle-netsuite-connector/issues/400
